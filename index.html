@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- googlefonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Guerrilla&family=Sevillana&display=swap"
+      rel="stylesheet"
+    />
+    <!-- animate style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container">
+      <!-- nav bar -->
+      <nav>
+        <!-- logo -->
+        <img class="logo" src="./images/logo.jpeg" alt="no image" />
+        <ul>
+          <li class="list-items"><a class="list" href="#home">HOME</a></li>
+          <li class="list-items"><a class="list" href="#about">ABOUT</a></li>
+          <li class="list-items"><a class="list" href="#skill">SKILLS</a></li>
+          <li class="list-items">
+            <a class="list" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- home -->
+      <section id="home">
+        <div class="home-content">
+          <h1 class="animate__animated animate__rubberBand" id="username">I am Maria<span id="lastname">Joe</span></h1>
+          <p id="user-details">
+            This is my official portfolio website to describe all <br />
+            details and work experienve in web devolopment
+          </p>
+          <a id="download" href="./images/RINO ANTONY.pdf" download
+            >DOWNLOAD CV</a
+          >
+        </div>
+        <div class="home-image">
+          <img
+            id="shape"
+            class="group1"
+            src="./images/8fd7e2dd-0332-44ce-aeea-a4e52ad1cde3-removebg-preview.png"
+            alt="no image"
+          />
+          <img
+            id="girl"
+            class="group1"
+            src="./images/e023b65b-ea7c-41ab-87be-74c2c56d3971-removebg-preview.png"
+            alt="no image"
+          />
+        </div>
+      </section>
+      <!-- about -->
+      <section id="about">
+        <div class="sectionhead">
+          <h2 id="heading">ABOUT ME</h2>
+          <span id="intro">Introduction</span>
+        </div>
+        <div class="aboutbody">
+          <div data-aos="fade-right" class="aboutimage">
+            <img
+              class="image1"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDWTNxDS54bMfW9HAroCb0_KP4Ji1UhY8_Uw&s"
+              alt="no image"
+            />
+          </div>
+          <div class="aboutcontent">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel amet
+              quasi debitis, dolores dolorem veritatis ullam quas perferendis
+              voluptatum esse? Distinctio beatae nemo illo fuga corrupti
+              laudantium hic esse dignissimos.
+            </p>
+            <div class="contact">
+              <div class="infobox">
+                <i class="fa-solid fa-user"></i><span>Maria Joe</span>
+              </div>
+              <div class="infobox">
+                <i class="fa-solid fa-phone"></i><span>9853622659</span>
+              </div>
+              <div class="infobox">
+                <i class="fa-solid fa-envelope"></i
+                ><span>maria777@gmail.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skills -->
+      <section id="skill">
+        <div class="sectionhead">
+          <h2 id="heading">SKILLS</h2>
+          <span id="intro">my skills</span>
+        </div>
+        <div class="skillcontent">
+          <div class="progressbars">
+            <!-- progress bars -->
+            <div class="bars">
+              <h3 class="mainhead">HTML</h3>
+              <span class="barpercentage">89%</span>
+              <div class="basebar"></div>
+              <div class="basebar htmlbar"></div>
+            </div>
+            <div class="bars">
+              <h3 class="mainhead">CSS</h3>
+              <span class="barpercentage">82%</span>
+              <div class="basebar"></div>
+              <div class="basebar cssbar"></div>
+            </div>
+            <div class="bars">
+              <h3 class="mainhead">JAVASCRIPT</h3>
+              <span class="barpercentage">71%</span>
+              <div class="basebar"></div>
+              <div class="basebar javabar"></div>
+            </div>
+            <div class="bars">
+              <h3 class="mainhead">REACT</h3>
+              <span class="barpercentage">82%</span>
+              <div class="basebar"></div>
+              <div class="basebar reactbar"></div>
+            </div>
+          </div>
+          <div data-aos="fade-left" class="skillimage">
+            <img
+              width="500px"
+              class="myskill"
+              src="./images/man-on-laptop-develops-his-skills-on-the-job.webp"
+              alt="no image"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- contact -->
+      <section id="contact">
+        <div class="sectionhead">
+          <h2 id="heading">CONTACTS</h2>
+          <span id="intro">my contacts</span>
+        </div>
+        <div class="iconcollection">
+          <!-- linkedIN -->
+          <div class="icon">
+            <a href="https://in.linkedin.com/" target="_blank"
+              ><i class="fa-brands fa-linkedin brands"></i
+            ></a>
+          </div>
+          <!-- github -->
+          <div class="icon">
+            <a href="https://github.com/" target="_blank"
+              ><i class="fa-brands fa-github brands"></i
+            ></a>
+          </div>
+          <!-- X -->
+          <div class="icon">
+            <a href="https://x.com/?lang=en" target="_blank"
+              ><i class="fa-brands fa-square-x-twitter brands"></i
+            ></a>
+          </div>
+          <!-- facebook -->
+          <div class="icon">
+            <a href="https://www.facebook.com/login/" target="_blank"
+              ><i class="fa-brands fa-square-facebook brands"></i
+            ></a>
+          </div>
+          <!-- instagram -->
+          <div class="icon">
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="fa-brands fa-instagram brands"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer>
+        <p id="copyright">
+          &copy;My portfolio website -June 2024, All rights reserved to &reg;
+          Maria Joe
+        </p>
+        <div class="icon uparrow">
+          <a href="#container"><i class="fa-solid fa-arrow-up brands"></i></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <!-- js aos animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>

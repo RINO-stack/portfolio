@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 8px;
+    font-family: "Playfair Display", serif;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+.logo{
+    width: 180px;
+}
+.list-items{
+    display: inline;
+    list-style: none;
+    margin: 0px 10px;
+}
+.list{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+/* pseudoclass */
+.list:hover{
+    color: red;
+    text-decoration: underline;
+}
+.home-content{
+    margin: 10% 0px 0px 5%;
+}
+#username{
+    font-size: 40px;
+    font-family: "Playwrite CU", cursive;
+}
+#lastname{
+    color: red;
+}
+#user-details{
+    line-height: 1.2;
+}
+#download{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.home-image{
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+}
+.group1{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.home-image:hover #shape{
+    bottom: 70px;
+}
+.home-image:hover #girl{
+    left: 40%;
+}
+#about{
+    margin: 15% 8% 0% 8%;
+}
+.sectionhead{
+     text-align: center;
+}
+#heading{
+    font-size: 30px;
+}
+#intro{
+    font-size: 20px;
+    color: green;
+}
+.aboutbody{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:300px 650px;
+    gap: 30px;
+    align-items: center;
+}
+.image1{
+    width: 100%;
+}
+.aboutcontent{
+    text-align: justify;
+}
+#skill{
+    margin: 8% 8% 0px 8%;
+}
+.skillcontent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: 20px;
+}
+.bars{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 1rem 0px;
+}
+.mainhead, .barpercentage{
+     font-weight: 400px;
+     font-size: 1rem;
+}
+.basebar{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+.htmlbar{
+    background-color: orange;
+    width: 89%;
+}
+.cssbar{
+    background-color: orange;
+    width: 82%;
+}
+.javabar{
+    background-color: orange;
+    width: 71%;
+}
+.reactbar{
+    background-color: orange;
+    width: 82%;
+}
+#contact{
+    margin: 8% 8% 0px 8%;
+}
+.iconcollection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+.brands{
+    color: black;
+    font-size: 2rem;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right, blue, rgb(74, 251, 74));
+}
+.icon:hover .brands{
+    color: white;
+    animation: rotate 3s;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
+footer{
+    margin-top: 8%;
+}
+#copyright{
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.uparrow{
+    float: right;
+    margin-top: -45px;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orangered;
+    border-radius: 10px;
+}
